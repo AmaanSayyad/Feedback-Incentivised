@@ -15,7 +15,7 @@ module.exports = {
   },
   etherscan: {
     apiKey: {
-      "lisk-sepolia": LISK_API_KEY,
+      "lisk-sepolia": "123",
     },
     customChains: [
       {

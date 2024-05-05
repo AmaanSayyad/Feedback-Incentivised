@@ -1,11 +1,11 @@
-const noteTokenAddress = "0x03F734Bd9847575fDbE9bEaDDf9C166F880B5E5f"
-const feedBackAddress = "0xBFff78BB02925E4D8671D0d90B2a6330fcAedd87"
+const FITokenAddress = "0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12"
+const feedBackAddress = "0xe6d602De78a7a46F072B117A99b7e45640aB5E7C"
 async function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 async function deployContract() {
   const deployedContract = await ethers.deployContract("FeedbackPlatform", [
-    noteTokenAddress,
+    FITokenAddress,
   ]);
   console.log("[main] Waiting for Deployment...");
   await deployedContract.waitForDeployment();
@@ -17,7 +17,7 @@ async function deployContract() {
   await hre.run("verify:verify", {
     contract: "contracts/Feedback.sol:FeedbackPlatform",
     address: address,
-    constructorArguments: [noteTokenAddress],
+    constructorArguments: [FITokenAddress],
   });
 }
 
