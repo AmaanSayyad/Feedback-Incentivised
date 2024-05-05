@@ -4,7 +4,7 @@ pragma solidity ^0.8.0;
 import "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol";
 import "@openzeppelin/contracts/access/Ownable.sol";
 contract PlatformToken is ERC20Burnable, Ownable {
-    constructor() ERC20("FI_Coin","FIC") {
+    constructor() ERC20("Feedback Incentivised Token","FIT") {
     }
 
     function mint(address to, uint256 amount) public  {
