@@ -1,9 +1,9 @@
-import { polygonMumbai,baseSepolia,xdcTestnet,canto ,  } from "viem/chains";
+import { liskSepolia ,polygonMumbai } from "viem/chains";
 import { jsonRpcProvider } from "wagmi/providers/jsonRpc";
 import { getDefaultWallets } from "@rainbow-me/rainbowkit";
 import { configureChains, createConfig } from "wagmi";
 const { chains, publicClient } = configureChains(
-  [polygonMumbai,baseSepolia,xdcTestnet,canto],
+  [liskSepolia,polygonMumbai],
   [
     jsonRpcProvider({
       rpc: (chainId) => {
@@ -27,6 +27,10 @@ const { chains, publicClient } = configureChains(
         if(chainId.id == 7700){
           return {
             http: "https://canto-testnet.plexnode.wtf",
+          };
+        } if(chainId.id == 4202){
+          return {
+            http: "https://rpc.sepolia-api.lisk.com",
           };
         }
       },
