@@ -13,13 +13,10 @@ const NavBar = () => {
   return (
     <>
       <div className="z-20 mobile:px-10 lg:px-[10vw] lg:text-[18px] lg:h-[80px] mobile:h-[70px] w-[100vw] flex items-center justify-between font-normal shadow-md fixed nav-light txt-light">
-        <div className="cursor-pointer w-[60%] md:w-[20%] flex items-center">
-          <Link to="/" className="flex items-center">
+        <div className="cursor-pointer w-[60%] md:w-[30%] flex items-center">
+          <Link to="/">
             <li>
-              <div class="logo-holder logo-3 whitespace-nowrap">
-                <h3>Feedback Incentivized</h3>
-                <p><span className="text-blue-400">Find</span> <span className="text-orange-400">Listed</span> <span className="text-yellow-400">Earn</span></p>
-              </div>
+              <img src="./first.png" alt="logo" className=" w-110 mb-4" />
             </li>
           </Link>
         </div>

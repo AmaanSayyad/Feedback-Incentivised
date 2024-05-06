@@ -6,20 +6,18 @@ const Footer = () => {
   return (
     <footer className="bg-gradient-to-t from-black to-gray-800 text-white py-8 mt-5 ">
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
-        <div className="mb-4 md:mb-0">
-
         <Link to="/" className="flex items-center">
-            <li>
-              <div class="logo-holder logo-3">
-                <h3>FeedBack Incentivized</h3>
-                <p><span className="text-blue-400">Connect</span> <span className="text-orange-400">Transact</span> <span className="text-yellow-400">Grow</span></p>
-              </div>
-            </li>
-          </Link>
-          <p className="mt-4">IIIT Dharwad Campus, <br/>Ittigatti Road,Near Sattur Colony</p>
-          <p> Dharwad 580009</p>
+          <li>
+            <div className="cursor-pointer w-[60%] md:w-[40%] flex items-center">
+              <Link to="/">
+                <li>
+                  <img src="./first.png" alt="logo" className=" w-110 mb-4" />
+                </li>
+              </Link>
+            </div>
+          </li>
+        </Link>
 
-        </div>
         <div>
           <h2 className="text-xl font-semibold">Follow Us</h2>
           <div className="mt-2 flex space-x-4">
@@ -36,7 +34,10 @@ const Footer = () => {
         </div>
       </div>
       <div className="text-center mt-4">
-        <p>&copy; {new Date().getFullYear()}  Feedback Incentivized. All rights reserved.</p>
+        <p>
+          &copy; {new Date().getFullYear()} Feedback Incentivized. All rights
+          reserved.
+        </p>
       </div>
     </footer>
   );

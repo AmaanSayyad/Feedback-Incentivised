@@ -396,7 +396,7 @@ export const UserContextProvider = ({ children }) => {
   }
 
   async function viewIssue(issueId, amountStaked) {
-    console.log(issueId, "Unl;ocking");
+    console.log(issueId, "Unlocking");
     try {
       let id1 = toast.loading("⏳ Approving Tokens ...", {
         theme: "dark",
