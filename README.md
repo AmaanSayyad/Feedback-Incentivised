@@ -37,10 +37,12 @@ https://sepolia-blockscout.lisk.com/address/0xe6d602De78a7a46F072B117A99b7e45640
 https://sepolia-blockscout.lisk.com/address/0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12#code
 
 ### Gelato:
+
+![gallery (6)](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/49f515b9-43a8-42bc-9645-9162433bae62)
+
 Gelato-functions
 
-<img style="max-width:100%; max-height:100%;" alt="small" src="https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/a4e829f2-05d6-4441-aaf7-1a340991bd4d">
-
+![gallery (5)](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/c4bb94e9-e128-45d6-8840-447cd7b6e97a)
 
 ## Competitive Advantages
 
