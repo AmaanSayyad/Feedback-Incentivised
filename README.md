@@ -13,14 +13,33 @@ Traditional bug reporting methods are often cumbersome and lack incentives. Comp
 
 Feedback Incentivized offers a user-friendly bug reporting platform that incentivizes users to report errors. This facilitates direct communication between users and companies, providing actionable feedback for swift issue resolution and platform enhancement.
 
+## Built with
+
+- Solidity
+- React
+- Wagmi
+- Hardhat
+- Ether.js
+- lisk-sepolia
+- Metamask
+- Rainbow-kit
+- viems-chains
+- gelato
+- gelato-functions
+- Typescript
 
 ## Tracks
+### Lisk L2:
 1. Lisk Sepolia Testnet Feedback(Contract) Deployment <br/>
 https://sepolia-blockscout.lisk.com/address/0xe6d602De78a7a46F072B117A99b7e45640aB5E7C#code
 
 2. Lisk Sepolia Testnet LoyalityToken (Contract) Deployment <br/>
 https://sepolia-blockscout.lisk.com/address/0xDD0570Edb234A1753e5aD3f8Be8fa7515cdA1C12#code
 
+### Gelato:
+Gelato-functions
+
+<img style="max-width:100%; max-height:100%;" alt="small" src="https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/a4e829f2-05d6-4441-aaf7-1a340991bd4d">
 
 
 ## Competitive Advantages
@@ -45,26 +64,28 @@ https://sepolia-blockscout.lisk.com/address/0xDD0570Edb234A1753e5aD3f8Be8fa7515c
 
 ## Platform
 ### Landing Page:
-![chrome-capture-2023-12-17](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/0daf0b0a-41fd-4b10-bf59-279cdf9e3557)
-
-### Connect Wallet or Sign Up with Google:
-![chrome-capture-2023-12-17 (5)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/074f8e1a-02c6-4221-bbc0-290176ee7511)
+![291031554-0daf0b0a-41fd-4b10-bf59-279cdf9e3557](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/54cc84bb-512b-4c33-851f-285ef25099e6)
 
 ### Issue Creation Page:
-![chrome-capture-2023-12-17 (1)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/56802235-9fc1-4781-a519-4d7de6c4ce62)
+![291031552-56802235-9fc1-4781-a519-4d7de6c4ce62](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/00faeca7-4bff-4aae-8764-3ed6b2639acf)
 
 ### User Dashboard:
-![chrome-capture-2023-12-17 (2)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/528fccd9-b3ca-468e-9d03-e0edfd6a0f30)
+![291031551-528fccd9-b3ca-468e-9d03-e0edfd6a0f30](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/9bc1eea6-dfed-4df1-bbbc-ca0d0d76e756)
 
 ### User Referral:
-![chrome-capture-2023-12-17 (3)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a)
+![291031548-15cd4ce6-75a6-4c50-9e84-cf6af0db0c1a](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/a314fc4a-9fac-4c23-bc5f-22432b7facbd)
 
 ### Issue History:
-![WhatsApp Image 2023-12-17 at 5 13 29 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/26497b29-32dc-4ebf-9a1e-872bdbb68b5e)
+![291030800-26497b29-32dc-4ebf-9a1e-872bdbb68b5e](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/dece14ab-e40a-44a1-af86-8a0cddeef0f2)
 
 ### Company Dashboard:
-![WhatsApp Image 2023-12-17 at 5 17 44 AM](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/c2022767-16ea-4a31-98ac-8c9c5a0d618b)
+![291030802-c2022767-16ea-4a31-98ac-8c9c5a0d618b](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/69590fae-a7a7-47cf-8d84-2fa4dd608bf2)
 
 ### Company Checks Issue after Stake Complete and Accepts and Decline:
-![chrome-capture-2023-12-17 (4)](https://github.com/Kali-Decoder/FeedbackIncentives/assets/69464744/a4fd886b-a992-485c-bd43-9569f3a9f368)
+![291031949-a4fd886b-a992-485c-bd43-9569f3a9f368](https://github.com/AmaanSayyad/Feedback-Incentivised/assets/69464744/b838826c-d324-4d11-8f5b-fdaa7792dbec)
 
+## What's next for Feedback Incentivised 
+
+- Make it more Flexible and more trust worthy we can use BFT System of Blockchain to verify the Issue.
+- Make it Available for Cross Chain Platform List one issue on this chain and show it to other chain also.
+- Continue working on the application and explore more utilization of lisk and gelato tools.
