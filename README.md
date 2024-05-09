@@ -29,7 +29,7 @@ Feedback Incentivized offers a user-friendly bug reporting platform that incenti
 - Typescript
 
 ## Tracks
-### Lisk L2:
+### Lisk L2 - Real World Applications
 1. Lisk Sepolia Testnet Feedback(Contract) Deployment <br/>
 https://sepolia-blockscout.lisk.com/address/0xe6d602De78a7a46F072B117A99b7e45640aB5E7C#code
 
